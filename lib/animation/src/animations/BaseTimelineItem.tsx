@@ -12,7 +12,7 @@ export class BaseTimelineItem {
 
     this._elapsed = timestamp - this._frameTimeDelta;
 
-    // console.log((this._elapsed / 1000).toFixed(2));
+    console.log((this._elapsed / 1000).toFixed(2));
     console.log(timestamp);
 
     if (this._elapsed >= this._duration) this._completed = true;
